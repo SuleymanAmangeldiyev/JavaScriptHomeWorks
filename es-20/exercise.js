@@ -15,6 +15,6 @@ if(primitive == "boolean"){
 primitive = "Suleyman";
 console.log(typeof(primitive));
 
-primitive = 1998;
+primitive = ture;
 console.log(typeof(primitive));
 
