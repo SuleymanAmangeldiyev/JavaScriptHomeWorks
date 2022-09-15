@@ -1,5 +1,5 @@
-function sayHelloName(names){ 
- return "Hello" + " "+ names;
+function sayHelloName(name){ 
+ return "Hello" + " "+ name;
 }
 
 let name1 = sayHelloName('Cosimo');
