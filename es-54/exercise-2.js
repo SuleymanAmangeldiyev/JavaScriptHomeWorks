@@ -1,10 +1,8 @@
 function nicknameMap(persons) {
 
-  let newArr = new Array();
-  persons.map(({ name, age }) => {
-    return newArr.push(`${name}-${age}`);
-  });
-  return newArr;
+    
+ return persons.map(({ name, age }) => (`${name}-${age}`));
+
 }
 
 
